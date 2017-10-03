@@ -1,0 +1,11 @@
+			.kakInfo
+			 {
+				font-weight: bold;
+				font-family: "Comic Sans MS";
+				font-size: 1em;
+			}
+			 .kakHelpers{
+				color: #FF0000;
+				background-color: #00FF00;
+				border-color: #0000FF
+			}
