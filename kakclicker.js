@@ -12,7 +12,7 @@ function klick(kakperklick){
 	document.getElementById("kakNum").innerHTML = kak+" kak";
 }
 function getKakPriest(){
-	if (kak>kakPriestPrice-1) {
+	if (kak>=kakPriestPrice) {
 		kakPriests+=1
 		kps+=2;
 		kak-=kakPriestPrice;
@@ -27,7 +27,7 @@ function getKakPriest(){
 	}
 }
 function getKakFriend(){
-	if (kak>kakFriendPrice-1) {
+	if (kak>=kakFriendPrice) {
 		kakFriends+=1
 		kps+=0.1;
 		kak-=kakFriendPrice;
@@ -42,7 +42,7 @@ function getKakFriend(){
 	}
 }
 function gatKakBaker() {
-	if (kak>kakBakerPrice-1) {
+	if (kak>=kakBakerPrice) {
 		kakBakers+=1;
 		kps+=0.5;
 		kak-=kakBakerPrice;
