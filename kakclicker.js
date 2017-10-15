@@ -7,14 +7,31 @@ var kakBakers = 0;
 var kakBakerPrice = 17;
 var kakPriests = 0;
 var kakPriestPrice = 30;
+var kakArmies = 0;
+var kakArmyPrice = 200;
 function klick(kakperklick){
 	kak+=kakperklick;
 	document.getElementById("kakNum").innerHTML = kak+" kak";
 }
+function getKakArmy(){
+	if (kak>=kakArmyPrice) {
+		kakArmies+=1
+		kps+=2
+		kak-=kakArmyPrice;
+		kakArmyPrice+=kakArmyPrice/5;
+		kakArmyPrice=Math.round(kakArmyPrice);
+		document.getElementById("kps").innerHTML = kps+" kps";
+		document.getElementById("kakNum").innerHTML = kak+" kak";
+		document.getElementById("kakArmy").innerHTML = "Get Kak Army ("+kakArmyPrice+" kak) "+kakArmies;
+	}
+	else {
+		alert("You do not have enough kak. GET MORE KAK");
+	}
+}
 function getKakPriest(){
 	if (kak>=kakPriestPrice) {
 		kakPriests+=1
-		kps+=2;
+		kps+=2
 		kak-=kakPriestPrice;
 		kakPriestPrice+=kakPriestPrice/5;
 		kakPriestPrice=Math.round(kakPriestPrice);
