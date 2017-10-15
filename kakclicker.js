@@ -16,7 +16,7 @@ function klick(kakperklick){
 function getKakArmy(){
 	if (kak>=kakArmyPrice) {
 		kakArmies+=1
-		kps+=2
+		kps+=50
 		kak-=kakArmyPrice;
 		kakArmyPrice+=kakArmyPrice/5;
 		kakArmyPrice=Math.round(kakArmyPrice);
