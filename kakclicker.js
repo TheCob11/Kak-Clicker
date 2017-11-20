@@ -9,6 +9,7 @@ var kakPriests = 0;
 var kakPriestPrice = 30;
 var kakArmies = 0;
 var kakArmyPrice = 200;
+var goldenKak = Math.floor(Math.random()*101)
 function klick(kakperklick){
 	kak+=kakperklick;
 	document.getElementById("kakNum").innerHTML = kak+" kak";
@@ -79,4 +80,13 @@ var intervalID = window.setInterval(secondPassed, 1000);
 function secondPassed() {
 	kak+=kps;
 	document.getElementById("kakNum").innerHTML = kak+" kak";
+	var goldenKak = Math.floor(Math.random()*101)
+	if (goldenKak = Math.floor(Math.random()*101)) {
+		
+	}
+}
+
+function goldenKakClicked() {
+	alert(Nice job clicking that kak! You have pleased the kak gods and have been awarded 1000 kak!);
+	kak+=1000;
 }
