@@ -87,7 +87,7 @@ function secondPassed() {
 }
 
 function goldenKakClicked() {
-	alert(Nice job clicking that kak! You have pleased the kak gods and have been awarded 1000 kak!);
+	alert("Nice job clicking that kak! You have pleased the kak gods and have been awarded 1000 kak!");
 	kak+=1000;
 }
 
