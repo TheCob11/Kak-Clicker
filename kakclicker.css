@@ -9,14 +9,13 @@
 	background-color: #00FF00;
 	border-color: #0000FF
 }
-#goldenKakImage{
+/*#goldenKakImage{
 	border-radius: 50%;
 	visibility: hidden;
 	position: absolute;
 	left: 300px;
 	top: 400px;
-	
-}
+}*/
 #kakImage{
 	border-radius: 50%;
 }
