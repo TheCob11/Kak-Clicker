@@ -15,5 +15,8 @@ body{
 #goldenKakImage{
 	border-radius: 50%;
 	visibility: hidden;
+	position: absolute;
+	left: 300px;
+	top: 400px;
 	
 }
