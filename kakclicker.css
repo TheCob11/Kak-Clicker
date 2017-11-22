@@ -19,3 +19,11 @@
 #kakImage{
 	border-radius: 50%;
 }
+#changelogLink{
+	position: absolute;
+	left: 700px;
+	top: 710px;
+	font-size: 1em;
+	font-weight: bold;
+	font-family: "Comic Sans MS";	
+}
