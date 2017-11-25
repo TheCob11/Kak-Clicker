@@ -18,6 +18,11 @@ body{
 	left: 300px;
 	top: 400px;
 }*/
+#kakName{
+	position: absolute;
+	top: 10px;
+	left: 26px;
+}
 #kakImage{
 	border-radius: 50%;
 }
