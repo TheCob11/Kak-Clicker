@@ -9,7 +9,8 @@ var kakPriests = 0;
 var kakPriestPrice = 30;
 var kakArmies = 0;
 var kakArmyPrice = 200;
-var goldenKakGuess = Math.floor(Math.random()*101)
+var goldenKakGuess = Math.floor(Math.random()*101);
+var kakName = document.getElementById("kakName");
 function klick(kakperklick){
 	kak+=kakperklick;
 	document.getElementById("kakNum").innerHTML = kak+" kak";
@@ -80,6 +81,9 @@ var intervalID = window.setInterval(secondPassed, 1000);
 function secondPassed() {
 	kak+=kps;
 	document.getElementById("kakNum").innerHTML = kak+" kak";
+	if (kakName="opensesamesaysopensesame"){
+		kak == 0;
+	}
 }
 /*
 function sleep(ms) {
