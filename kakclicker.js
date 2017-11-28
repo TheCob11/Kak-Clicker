@@ -100,12 +100,12 @@ async function goldenKak{
 		document.getElementById("goldenKakImage").style.visibility="hidden";
 	}
 }
-*/
+
 function goldenKakClicked() {
 	alert("Nice job clicking that kak! You have pleased the kak gods and have been awarded 1000 kak!");
 	kak+=1000;
 }
-
+*/
 function testScript(){
 	alert("Script found");
 }
