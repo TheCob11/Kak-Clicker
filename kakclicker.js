@@ -10,7 +10,7 @@ var kakPriestPrice = 30;
 var kakArmies = 0;
 var kakArmyPrice = 200;
 var goldenKakGuess = Math.floor(Math.random()*101);
-var kakName = "";
+var kakName = "____"aq;
 function klick(kakperklick){
 	kak+=kakperklick;
 	document.getElementById("kakNum").innerHTML = kak+" kak";
