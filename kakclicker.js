@@ -22,7 +22,7 @@ function getKakArmy(){
 	if (kak>=kakArmyPrice) {
 		kakArmies+=1
 		kps+=50
-		changeKak(kakarmyPrice*-1)
+		changeKak(kakArmyPrice*-1)
 		kakArmyPrice+=kakArmyPrice/5;
 		kakArmyPrice=Math.round(kakArmyPrice);
 		document.getElementById("kps").innerHTML = kps+" kps";
@@ -36,7 +36,7 @@ function getKakPriest(){
 	if (kak>=kakPriestPrice) {
 		kakPriests+=1
 		kps+=2
-		changeKak(kakPreistPrice*-1)
+		changeKak(kakPriestPrice*-1)
 		kakPriestPrice+=kakPriestPrice/5;
 		kakPriestPrice=Math.round(kakPriestPrice);
 		document.getElementById("kps").innerHTML = kps+" kps";
