@@ -19,13 +19,9 @@ body{
 	border-radius: 50%;
 }
 .footerBoys{
-	position: absolute;
-	top: 710px;
 	font-size: 1em;
 	font-weight: bold;
 	font-family: "Comic Sans MS";
-	margin-right:-700px;
-	margin-left:-700px;
 }
 #madeByMe{
 	left: 250px; 
