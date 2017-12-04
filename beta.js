@@ -17,16 +17,18 @@ function klick(kakperklick){
 function changeKak(changedKak){
 	kak+=changedKak;
 	document.getElementById("kakNum").innerHTML = kak+" kak";
+	Math.round(10*kak)/10
 }
 function getKakArmy(){
 	if (kak>=kakArmyPrice) {
 		kakArmies+=1
 		kps+=50
-		changeKak(kakarmyPrice*-1)
+		changeKak(kakArmyPrice*-1)
 		kakArmyPrice+=kakArmyPrice/5;
 		kakArmyPrice=Math.round(kakArmyPrice);
 		document.getElementById("kps").innerHTML = kps+" kps";
 		document.getElementById("kakArmy").innerHTML = "Get Kak Army ("+kakArmyPrice+" kak) "+kakArmies;
+		Math.round(10*kps)/10
 	}
 	else {
 		alert("You do not have enough kak. GET MORE KAK");
@@ -36,11 +38,12 @@ function getKakPriest(){
 	if (kak>=kakPriestPrice) {
 		kakPriests+=1
 		kps+=2
-		changeKak(kakPreistPrice*-1)
+		changeKak(kakPriestPrice*-1)
 		kakPriestPrice+=kakPriestPrice/5;
 		kakPriestPrice=Math.round(kakPriestPrice);
 		document.getElementById("kps").innerHTML = kps+" kps";
 		document.getElementById("kakPriest").innerHTML = "Get Kak Priest ("+kakPriestPrice+" kak) "+kakPriests;
+		Math.round(10*kps)/10
 	}
 	else {
 		alert("You do not have enough kak. GET MORE KAK");
@@ -55,6 +58,7 @@ function getKakFriend(){
 		kakFriendPrice=Math.round(kakFriendPrice);
 		document.getElementById("kps").innerHTML = kps+" kps";
 		document.getElementById("kakFriend").innerHTML = "Get Kak Friend ("+kakFriendPrice+" kak) "+kakFriends;
+		Math.round(10*kps)/10
 	}
 	else {
 		alert("You do not have enough kak. GET MORE KAK");
@@ -69,6 +73,7 @@ function gatKakBaker() {
 		kakBakerPrice=Math.round(kakBakerPrice);
 		document.getElementById("kps").innerHTML = kps+" kps";
 		document.getElementById("kakBaker").innerHTML = "Get Kak Baker ("+kakBakerPrice+" kak) "+kakBakers;
+		Math.round(10*kps)/10
 	}
 	else {
 		alert("You do not have enough kak. GET MORE KAK");
