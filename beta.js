@@ -16,8 +16,8 @@ function klick(kakperklick){
 }
 function changeKak(changedKak){
 	kak+=changedKak;
-	document.getElementById("kakNum").innerHTML = kak+" kak";
 	kak=Math.round(10*kak)/10
+	document.getElementById("kakNum").innerHTML = kak+" kak";
 }
 function getKakArmy(){
 	if (kak>=kakArmyPrice) {
@@ -26,9 +26,9 @@ function getKakArmy(){
 		changeKak(kakArmyPrice*-1)
 		kakArmyPrice+=kakArmyPrice/5;
 		kakArmyPrice=Math.round(kakArmyPrice);
+		kps=Math.round(10*kps)/10
 		document.getElementById("kps").innerHTML = kps+" kps";
 		document.getElementById("kakArmy").innerHTML = "Get Kak Army ("+kakArmyPrice+" kak) "+kakArmies;
-		kps=Math.round(10*kps)/10
 	}
 	else {
 		alert("You do not have enough kak. GET MORE KAK");
@@ -41,9 +41,9 @@ function getKakPriest(){
 		changeKak(kakPriestPrice*-1)
 		kakPriestPrice+=kakPriestPrice/5;
 		kakPriestPrice=Math.round(kakPriestPrice);
+		kps=Math.round(10*kps)/10
 		document.getElementById("kps").innerHTML = kps+" kps";
 		document.getElementById("kakPriest").innerHTML = "Get Kak Priest ("+kakPriestPrice+" kak) "+kakPriests;
-		kps=Math.round(10*kps)/10
 	}
 	else {
 		alert("You do not have enough kak. GET MORE KAK");
@@ -56,9 +56,9 @@ function getKakFriend(){
 		changeKak(kakFriendPrice*-1)
 		kakFriendPrice+=kakFriendPrice/5;
 		kakFriendPrice=Math.round(kakFriendPrice);
+		kps=Math.round(10*kps)/10
 		document.getElementById("kps").innerHTML = kps+" kps";
 		document.getElementById("kakFriend").innerHTML = "Get Kak Friend ("+kakFriendPrice+" kak) "+kakFriends;
-		kps=Math.round(10*kps)/10
 	}
 	else {
 		alert("You do not have enough kak. GET MORE KAK");
@@ -71,9 +71,9 @@ function gatKakBaker() {
 		changeKak(kakBakerPrice*-1)
 		kakBakerPrice+=kakBakerPrice/5;
 		kakBakerPrice=Math.round(kakBakerPrice);
+		kps=Math.round(10*kps)/10
 		document.getElementById("kps").innerHTML = kps+" kps";
 		document.getElementById("kakBaker").innerHTML = "Get Kak Baker ("+kakBakerPrice+" kak) "+kakBakers;
-		kps=Math.round(10*kps)/10
 	}
 	else {
 		alert("You do not have enough kak. GET MORE KAK");
