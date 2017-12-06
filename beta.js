@@ -13,7 +13,6 @@ alert("Right now the beta version has cookie experimenting");
 function klick(kakperklick){
 	kak+=kakperklick;
 	document.getElementById("kakNum").innerHTML = kak+" kak";
-	document.cookie = "amountOfKak="+kak+"; expires=Mon, 27 Nov 2801 12:00:00 UTC";
 }
 function changeKak(changedKak){
 	kak+=changedKak;
