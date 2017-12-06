@@ -1,9 +1,4 @@
-var now = new Date();
-var time = now.getTime();
-var expireTime = time + 1000*36000;
-now.setTime(expireTime);
-
-var kak = document.cookie;
+var kak = 0;
 var kpk = 1;
 var kps = 0;
 var kakFriendPrice = 10;
@@ -14,23 +9,16 @@ var kakPriests = 0;
 var kakPriestPrice = 30;
 var kakArmies = 0;
 var kakArmyPrice = 200;
-
-if (kak == "" || kak == null){
-	kak=0
-	document.cookie = "amountOfKak="+kak+"; expires=" now.toGMTString();	
-}
-
 alert("Right now the beta version has cookie experimenting");
 function klick(kakperklick){
 	kak+=kakperklick;
 	document.getElementById("kakNum").innerHTML = kak+" kak";
+	document.cookie = "amountOfKak="+kak+"; expires=Mon, 27 Nov 2801 12:00:00 UTC";
 }
 function changeKak(changedKak){
 	kak+=changedKak;
 	kak=Math.round(10*kak)/10
 	document.getElementById("kakNum").innerHTML = kak+" kak";
-	time=now.getTime();
-	document.cookie = "amountOfKak="+kak+"; expires="now.toGMTString();
 }
 function getKakArmy(){
 	if (kak>=kakArmyPrice) {
