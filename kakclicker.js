@@ -11,7 +11,6 @@ var kakArmies = 0;
 var kakArmyPrice = 200;
 function klick(kakperklick){
 	changeKak(kpk);
-	document.cookie = "amountOfKak="+kak+"; expires=Mon, 27 Nov 2801 12:00:00 UTC";
 }
 function changeKak(changedKak){
 	kak+=changedKak;
