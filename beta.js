@@ -11,8 +11,7 @@ var kakArmies = 0;
 var kakArmyPrice = 200;
 alert("Right now the beta version is the same as the normal version");
 function klick(kakperklick){
-	kak+=kakperklick;
-	document.getElementById("kakNum").innerHTML = kak+" kak";
+	changeKak(kpk);
 }
 function changeKak(changedKak){
 	kak+=changedKak;
