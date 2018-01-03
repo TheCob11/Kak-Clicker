@@ -17,6 +17,8 @@ body{
 }
 #kakImage{
 	border-radius: 50%;
+	-webkit-animation: spinnySpinSpin 5s infinite;
+	animation: spinnySpinSpin 5s infinite;
 }
 .footerBoys{
 	font-size: 1em;
@@ -25,4 +27,12 @@ body{
 }
 #madeByMe{
 	left: 250px; 
+}
+
+@-webkit-keyframes spinnySpinSpin {
+	100% {-webkit-transform: rotate(360deg);}
+}
+
+@keyframes spinnySpinSpin {
+	100% {transform: rotate(360deg);}
 }

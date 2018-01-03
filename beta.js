@@ -9,7 +9,7 @@ var kakPriests = 0;
 var kakPriestPrice = 30;
 var kakArmies = 0;
 var kakArmyPrice = 200;
-alert("Right now the beta version is the same as the normal version");
+alert("Right now the beta version has rotating kak.");
 function klick(kakperklick){
 	changeKak(kpk);
 }
