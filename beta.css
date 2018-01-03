@@ -14,11 +14,15 @@ body{
 	position: absolute;
 	top: 10px;
 	left: 26px;
+	display: flex;
+	display: -webkit-flex;
 }
 #kakImage{
 	border-radius: 50%;
-	-webkit-animation: spinnySpinSpin 5s infinite;
-	animation: spinnySpinSpin 5s infinite;
+	-webkit-animation: spinnySpinSpin 4s infinite;
+	animation: spinnySpinSpin 4s infinite;
+	display: flex;
+	display: -webkit-flex;
 }
 .footerBoys{
 	font-size: 1em;
@@ -36,3 +40,8 @@ body{
 @keyframes spinnySpinSpin {
 	100% {transform: rotate(360deg);}
 }
+
+#kakName {order: 1;}
+#kakName {-webkit-order: 1;}
+#kakImage{order: 2;}
+#kakImage{-webkit-order: 2;}
