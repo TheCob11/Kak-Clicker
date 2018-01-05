@@ -10,7 +10,7 @@ body{
 	background-color: #00FF00;
 	border-color: #0000FF
 }
-#kakName{
+#kakNamer{
 	position: absolute;
 	top: 10px;
 	left: 26px;
@@ -41,7 +41,5 @@ body{
 	100% {transform: rotate(360deg);}
 }
 
-#kakName {order: 1;}
-#kakName {-webkit-order: 1;}
-#kakImage{order: 2;}
-#kakImage{-webkit-order: 2;}
+div#kakNamer {order: 1;}
+div#kakNamer {-webkit-order: 1;}
