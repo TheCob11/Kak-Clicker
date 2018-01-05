@@ -17,6 +17,9 @@ function changeKak(changedKak){
 	kak+=changedKak;
 	kak=Math.round(10*kak)/10
 	document.getElementById("kakNum").innerHTML = kak+" kak";
+	if (kak==Infinity){
+		alert("TOO MUCH KAK")
+	}
 }
 function getKakArmy(){
 	if (kak>=kakArmyPrice) {
