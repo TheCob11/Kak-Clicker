@@ -10,13 +10,19 @@ body{
 	background-color: #00FF00;
 	border-color: #0000FF
 }
-#kakName{
+#kakNamer{
 	position: absolute;
 	top: 10px;
 	left: 26px;
+	display: flex;
+	display: -webkit-flex;
 }
 #kakImage{
 	border-radius: 50%;
+	-webkit-animation: spinnySpinSpin 4s infinite;
+	animation: spinnySpinSpin 4s infinite;
+	display: flex;
+	display: -webkit-flex;
 }
 .footerBoys{
 	font-size: 1em;
@@ -26,3 +32,14 @@ body{
 #madeByMe{
 	left: 250px; 
 }
+
+@-webkit-keyframes spinnySpinSpin {
+	100% {-webkit-transform: rotate(360deg);}
+}
+
+@keyframes spinnySpinSpin {
+	100% {transform: rotate(360deg);}
+}
+
+div#kakNamer {order: 1;}
+div#kakNamer {-webkit-order: 1;}
