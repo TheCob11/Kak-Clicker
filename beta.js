@@ -9,6 +9,9 @@ var kakPriests = 0;
 var kakPriestPrice = 30;
 var kakArmies = 0;
 var kakArmyPrice = 200;
+function GKakImg(){
+	
+}
 alert("Right now the beta version has golden kak");
 function klick(kakperklick){
 	changeKak(kpk);
@@ -19,6 +22,11 @@ function changeKak(changedKak){
 	document.getElementById("kakNum").innerHTML = kak+" kak";
 	if (kak==Infinity){
 		alert("TOO MUCH KAK")
+	}
+	var GKakNum = Math.floor((Math.random() * 100000) + 1);
+	var GKakGuess = Math.floor((Math.random() * 100000) + 1);
+	if (GKakNum === GKakGuess){
+		
 	}
 }
 function getKakArmy(){
