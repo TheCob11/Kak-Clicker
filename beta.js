@@ -9,10 +9,10 @@ var kakPriests = 0;
 var kakPriestPrice = 30;
 var kakArmies = 0;
 var kakArmyPrice = 200;
+alert("Right now the beta version has golden kak");
 function GKakImg(){
 	
 }
-alert("Right now the beta version has golden kak");
 function klick(kakperklick){
 	changeKak(kpk);
 }
