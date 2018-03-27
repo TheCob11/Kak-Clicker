@@ -10,7 +10,7 @@ var kakPriestPrice = 30;
 var kakArmies = 0;
 var kakArmyPrice = 200;
 function intro(){
-	document.style.color=#ff0000;
+	document.style.color= red;
 }
 alert("Right now the beta version has golden kak");
 intro();
