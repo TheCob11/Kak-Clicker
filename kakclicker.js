@@ -17,7 +17,7 @@ function changeKak(changedKak){
 	kak=Math.round(10*kak)/10
 	document.getElementById("kakNum").innerHTML = kak+" kak";
 	if (kak==Infinity){
-		alert("TOO MUCH KAK")
+		confirm("TOO MUCH KAK")
 	}
 }
 function getKakArmy(){
@@ -32,7 +32,7 @@ function getKakArmy(){
 		document.getElementById("kakArmy").innerHTML = "Get Kak Army ("+kakArmyPrice+" kak) "+kakArmies;
 	}
 	else {
-		alert("You do not have enough kak. GET MORE KAK");
+		confirm("You do not have enough kak. GET MORE KAK");
 	}
 }
 function getKakPriest(){
@@ -47,7 +47,7 @@ function getKakPriest(){
 		document.getElementById("kakPriest").innerHTML = "Get Kak Priest ("+kakPriestPrice+" kak) "+kakPriests;
 	}
 	else {
-		alert("You do not have enough kak. GET MORE KAK");
+		confirm("You do not have enough kak. GET MORE KAK");
 	}
 }
 function getKakFriend(){
@@ -62,7 +62,7 @@ function getKakFriend(){
 		document.getElementById("kakFriend").innerHTML = "Get Kak Friend ("+kakFriendPrice+" kak) "+kakFriends;
 	}
 	else {
-		alert("You do not have enough kak. GET MORE KAK");
+		confirm("You do not have enough kak. GET MORE KAK");
 	}
 }
 function gatKakBaker() {
@@ -77,7 +77,7 @@ function gatKakBaker() {
 		document.getElementById("kakBaker").innerHTML = "Get Kak Baker ("+kakBakerPrice+" kak) "+kakBakers;
 	}
 	else {
-		alert("You do not have enough kak. GET MORE KAK");
+		confirm("You do not have enough kak. GET MORE KAK");
 	}
 }
 
@@ -87,5 +87,5 @@ function secondPassed() {
 	changeKak(kps);
 }
 function testScript(){
-	alert("Script found");
+	confirm("Script found");
 }
