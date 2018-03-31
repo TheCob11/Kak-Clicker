@@ -24,13 +24,17 @@ body{
 	display: flex;
 	display: -webkit-flex;
 }
+#goldenKakImage{
+  position: absolute;
+  display: none;
+}
 .footerBoys{
 	font-size: 1em;
 	font-weight: bold;
 	font-family: "Comic Sans MS";
 }
 #madeByMe{
-	left: 250px; 
+	left: 250px;
 }
 
 @-webkit-keyframes spinnySpinSpin {

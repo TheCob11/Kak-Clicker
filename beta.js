@@ -14,7 +14,7 @@ function intro(){
 }
 confirm("Right now the beta version has golden kak");
 intro();
-function GKakImg(){
+function goldenKakKlick(){
 	
 }
 function klick(kakperklick){
