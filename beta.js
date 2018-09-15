@@ -9,6 +9,8 @@ var kakPriests = 0;
 var kakPriestPrice = 30;
 var kakArmies = 0;
 var kakArmyPrice = 200;
+var kakmorePrice = 2000;
+var kakmore = 0
 function intro(){
 	
 }
@@ -33,6 +35,15 @@ function changeKak(changedKak){
 		
 	}
 }
+function getKakMore(){
+	if (kak>=kakmorePrice) {
+		kakmore+=1;
+		kpk+=2;
+		changeklick(kakmorePrice*-1);
+		kakmorePrice+=kakmoreprice/5;
+		kakmorePrice=Math.round(kakmorePrice)
+		
+		
 function getKakArmy(){
 	if (kak>=kakArmyPrice) {
 		kakArmies+=1;
