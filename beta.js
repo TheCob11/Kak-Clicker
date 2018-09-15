@@ -14,11 +14,11 @@ var kakmore = 0
 function intro(){
 	
 }
-confirm("Right now the beta version has golden kak");
+confirm("Right now the beta version has kak more");
 intro();
-function goldenKakKlick(){
+/*function goldenKakKlick(){
 	
-}
+}*/
 function klick(kakperklick){
 	changeKak(kpk);
 }
@@ -29,10 +29,10 @@ function changeKak(changedKak){
 	if (kak==Infinity){
 		confirm("TOO MUCH KAK");
 	}
-	var GKakNum = Math.floor((Math.random() * 100000) + 1);
+	/*var GKakNum = Math.floor((Math.random() * 100000) + 1);
 	var GKakGuess = Math.floor((Math.random() * 100000) + 1);
 	if (GKakNum === GKakGuess){
-		
+	*/	
 	}
 }
 function getKakMore(){
