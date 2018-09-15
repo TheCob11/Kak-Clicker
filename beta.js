@@ -39,9 +39,10 @@ function getKakMore(){
 	if (kak>=kakmorePrice) {
 		kakmore+=1;
 		kpk+=2;
-		changeklick(kakmorePrice*-1);
 		kakmorePrice+=kakmoreprice/5;
-		kakmorePrice=Math.round(kakmorePrice)
+		kakmorePrice=Math.round(kakmorePrice);
+		document.getElementById("kpk").innerHTML = kpk+" kpk";
+		document.getElementById("kakMore").innerHTML = "Get Kak More ("+kakMorePrice+" kak) "+kakMore;;
 		
 		
 function getKakArmy(){
