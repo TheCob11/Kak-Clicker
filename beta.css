@@ -25,11 +25,11 @@ body{
 	display: flex;
 	display: -webkit-flex;
 }
-#goldenKakImage{
+/*#goldenKakImage{
   position: absolute;
   display: none;
 }
-.footerBoys{
+*/.footerBoys{
 	font-size: 1em;
 	font-weight: bold;
 	font-family: "Comic Sans MS";
