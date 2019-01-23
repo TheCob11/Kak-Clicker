@@ -43,8 +43,8 @@ function getKakMore(){
 		kakmorePrice=Math.round(kakmorePrice);
 		document.getElementById("kpk").innerHTML = kpk+" kpk";
 		document.getElementById("kakMore").innerHTML = "Get Kak More ("+kakMorePrice+" kak) "+kakMore;
-		
-		
+	}
+}	
 function getKakArmy(){
 	if (kak>=kakArmyPrice) {
 		kakArmies+=1;
