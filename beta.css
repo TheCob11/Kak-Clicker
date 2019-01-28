@@ -2,49 +2,49 @@ body{
 	font-family: "Comic Sans MS";
 	font-size: 1em;
 	background-color: aliceblue;
-}
+};
 .kakInfo{
 	font-weight: bold;
-}
+};
  .kakHelpers{
 	color: #FF0000;
 	background-color: #00FF00;
-	border-color: #0000FF
-}
+	border-color: #0000FF; 
+};
 #kakNamer{
 	position: absolute;
 	top: 10px;
 	left: 26px;
 	display: flex;
 	display: -webkit-flex;
-}
+};
 #kakImage{
 	border-radius: 50%;
 	-webkit-animation: spinnySpinSpin 4s infinite;
 	animation: spinnySpinSpin 4s infinite;
 	display: flex;
 	display: -webkit-flex;
-}
+};
 /*#goldenKakImage{
   position: absolute;
   display: none;
-}
+};
 */.footerBoys{
 	font-size: 1em;
 	font-weight: bold;
 	font-family: "Comic Sans MS";
-}
+};
 #madeByMe{
 	left: 250px;
-}
+};
 
 @-webkit-keyframes spinnySpinSpin {
 	100% {-webkit-transform: rotate(360deg);}
-}
+};
 
 @keyframes spinnySpinSpin {
 	100% {transform: rotate(360deg);}
-}
+};
 
 div#kakNamer {order: 1;}
 div#kakNamer {-webkit-order: 1;}
