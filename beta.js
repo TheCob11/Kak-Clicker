@@ -11,6 +11,7 @@ var kakArmies = 0;
 var kakArmyPrice = 200;
 var kakmorePrice = 2000;
 var kakmore = 0
+var intervalID = 0
 function intro(){
 	
 }
@@ -44,6 +45,9 @@ function getKakMore(){
 		document.getElementById("kpk").innerHTML = kpk+" kpk";
 		document.getElementById("kakMore").innerHTML = "Get Kak More ("+kakMorePrice+" kak) "+kakMore;
 	}
+	else {
+		confirm("You do not have enough kak. GET MORE KAK");
+	};
 }	
 function getKakArmy(){
 	if (kak>=kakArmyPrice) {
@@ -58,7 +62,7 @@ function getKakArmy(){
 	}
 	else {
 		confirm("You do not have enough kak. GET MORE KAK");
-	}
+	};
 }
 function getKakPriest(){
 	if (kak>=kakPriestPrice) {
@@ -73,7 +77,7 @@ function getKakPriest(){
 	}
 	else {
 		confirm("You do not have enough kak. GET MORE KAK");
-	}
+	};
 }
 function getKakFriend(){
 	if (kak>=kakFriendPrice) {
@@ -88,7 +92,7 @@ function getKakFriend(){
 	}
 	else {
 		confirm("You do not have enough kak. GET MORE KAK");
-	}
+	};
 }
 function gatKakBaker() {
 	if (kak>=kakBakerPrice) {
@@ -103,7 +107,7 @@ function gatKakBaker() {
 	}
 	else {
 		confirm("You do not have enough kak. GET MORE KAK");
-	}
+	};
 }
 
 var intervalID = window.setInterval(secondPassed, 1000);
